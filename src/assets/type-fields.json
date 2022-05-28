@@ -1,0 +1,17 @@
+[
+    {
+        "type": "text"
+    },
+    {
+        "type": "radio"
+    },
+    {
+        "type": "checkbox"
+    },
+    {
+        "type": "number"
+    },
+    {
+        "type": "select"
+    }
+]

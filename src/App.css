@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  text-align: center;
+  background-color: #ECECEC;
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 0 3rem;
+  align-items: center;
+}
+
+.forms {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  min-height: 80%;
+  background-color: #095689;
+  padding: 3rem;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+
+.forms__form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: #095689;
+  padding: 3rem;
+}
+
+.forms__button {
+  width: 100%;
+  margin: 1rem;
+}
+
+.forms__button > button {
+  background-color: #0f285f;
+  border: none;
+  color: #ECECEC;
+  width: 9rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+
+.forms__input {
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+  width: fit-content;
+}
+
+.forms__times {
+  width: 1.3rem;
+  height: 1.3rem;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forms--selector {
+  flex-direction: column;
+}
+
+.type {
+  color: #ECECEC;
+  font-size: 1.12rem;
+  margin: 1rem;
+  text-transform: capitalize;
+}
+
+.option {
+  min-width: 8rem;
+  height: 1.5rem;
+  background-color: #0f285f;
+  border-radius: 1rem;
+  color: #ECECEC;
+  margin: 0 .3rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  max-width: 15rem;
+  align-items: flex-start;
+  gap: .5rem;
+  margin: .5rem 0;
+}
+
+.field__label {
+  color: #ECECEC;
+}
